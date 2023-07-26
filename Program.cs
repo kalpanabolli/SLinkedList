@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Phase1Section4._7b
+namespace SLinkedList
 {
     class Program
     {
@@ -21,7 +21,7 @@ namespace Phase1Section4._7b
                 list.add(node);
             }
 
-            Console.WriteLine("length of singly linked list=" + list.getLengthOfList());
+            Console.Write("length of singly linked list=" + list.getLengthOfList());
 
             n = list.getRoot();
             while (n != null)
